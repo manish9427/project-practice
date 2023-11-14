@@ -1,0 +1,14 @@
+.header {
+  .logo {
+    height: 100px;
+  }
+  .menuItems {
+    list-style-type: none;
+    display: none;
+    align-items: center;
+  }
+  .menuItem {
+    display: flex;
+    color: white;
+  }
+}
