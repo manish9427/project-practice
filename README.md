@@ -27,6 +27,14 @@ image are loading {lazzy loading } blur effect proper optimization
 
 ---
 
+infinite srolling
+loading skelletion
+api fetching
+amaging UI UX using scss
+responsivness
+
+---
+
 package.json
 public
 index.html
