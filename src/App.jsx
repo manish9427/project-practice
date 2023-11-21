@@ -1,12 +1,18 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./components/header/Header";
+import TestApi from "./utils/TestApi";
+import { store } from "./store/store";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <div>
-      <Header />
-    </div>
+    <Provider store={store}>
+      <div>
+        <Header />
+        <TestApi />
+      </div>
+    </Provider>
   );
 }
 

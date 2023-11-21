@@ -40,6 +40,27 @@ public
 index.html
 index.scss
 main.jsx
+
+=> GLobal Method for api call
 .env => Token
 utils => api.js
 App.js
+
+url=end point
+params = pass a second argument
+
+ApiTesting
+
+# react-redux
+
+# redux toolkit
+
+# create a redux store
+
+store = configure
+
+# provide redux store to react
+
+import store
+provider
+store props pass
