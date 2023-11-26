@@ -4,7 +4,7 @@ export const homeSlice = createSlice({
   name: "home",
   initialState: {
     // url: { name: "manish" },
-    url: { name: "manish" },
+    url: {},
     genres: {},
   },
   reducers: {
@@ -12,7 +12,7 @@ export const homeSlice = createSlice({
       state.url = action.payload;
     },
     getGenres: (state, action) => {
-      state.url = action.payload;
+      state.genres = action.payload;
     },
   },
 });
