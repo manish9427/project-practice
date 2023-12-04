@@ -64,3 +64,31 @@ store = configure
 import store
 provider
 store props pass
+apiTesting
+printing total pages
+
+// ----------------------------------------------------------------//
+
+//---------------------------------------------------------//
+
+# import
+
+## React
+
+React, { useState, useEffect }
+
+## react-redux
+
+{provider,useSelector, useDispatch}
+
+## React-router-dom
+
+{BrowserRouter, Routes, Route,useNavigate}
+
+## react-icons/
+
+{HiOutlineSearch } -> hi
+
+## @reduxjs/toolkit
+
+{createSlice,configureStore}
