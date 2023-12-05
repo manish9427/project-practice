@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./style.scss";
+import { useNavigate } from "react-router-dom";
 
 const HeroBanner = () => {
   const [background, setbackground] = useState("");
   const [query, setQuery] = useState("");
+  const navigate = useNavigate();
   return (
     <div className="heroBanner">
       <div className="wrapper">
