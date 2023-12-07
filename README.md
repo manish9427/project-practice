@@ -69,6 +69,20 @@ printing total pages
 
 // ----------------------------------------------------------------//
 
+# Hooks
+
+useFetch
+
+# Components
+
+- Header
+- Footer
+
+# Pages
+
+- Hero
+  HeroBanner
+
 //---------------------------------------------------------//
 
 # import
